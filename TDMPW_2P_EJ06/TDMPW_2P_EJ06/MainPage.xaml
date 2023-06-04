@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TDMPW_2P_EJ06.MainPage">
+
+    <Grid x:Name="background">
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                <GradientStop Offset="0.0" Color="#051937"/>
+                <GradientStop Offset="0.23" Color="#0400ff"/>
+                <GradientStop Offset="0.55" Color="#28db55"/>
+                <GradientStop Offset="0.86" Color="#605fab"/>
+                <GradientStop Offset="0.0" Color="#790975"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid Margin="25" RowDefinitions=".10*,.50*,.10*, .10*,.10*, .10*" ColumnDefinitions=".33*, .33*, .33*">
+            
+            <Label Text="Fast and Furious 4"
+                   Grid.Row="0"
+                   Grid.ColumnSpan="3"
+                   FontSize="40"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"
+                   TextColor="White"
+                   FontFamily="Fast"/>
+            <Frame
+                BorderColor="Black"
+                Grid.Row="1"
+                CornerRadius="30"
+                Grid.ColumnSpan="3"
+                Margin="10"
+                WidthRequest="320"
+                HeightRequest="320"
+                IsClippedToBounds="True"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+
+                <Image
+                    Source="rapido.jpg"
+                    Aspect="AspectFill"
+                    WidthRequest="320"
+                    HeightRequest="320">
+                </Image>
+
+            </Frame>
+             <Label Text="El ex convicto Dominic Toretto se une a su viejo adversario, Brian O'Conner, que ahora trabaja para el FBI en Los Ángeles, con el fin de infiltrarse en una organización criminal que se dedica a introducir heroína en la ciudad."
+                   Grid.Row="2"
+                   Grid.ColumnSpan="3"
+                   FontSize="12"
+                   BackgroundColor="Black"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   TextColor="White"
+                   Opacity=".7"
+                   FontFamily="Helvetica Neu"
+                   Margin="10"/>
+            <Button Grid.Row="3"
+                    Grid.ColumnSpan="3"
+                    FontSize="25"
+                    BackgroundColor="Black"
+                    Text="Cambiar Fondo"
+                    TextColor="White"
+                    Opacity=".5"
+                    FontFamily="Bison"
+                    Clicked="Button_Clicked"
+                    Margin="10"/>
+
+            <Frame
+                BackgroundColor="White"
+                Grid.ColumnSpan="3"
+                Grid.Row="4"
+                Grid.RowSpan="2">
+            </Frame>
+            <Label
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="10"
+                FontAttributes="Bold"
+                FontFamily="Helvetica"
+                Text="#FF051937"
+                BackgroundColor="#FF051937"
+                Grid.Column="0"
+                Grid.Row="4"
+                x:Name="lblHex1"/>
+            <Label
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="10"
+                FontAttributes="Bold"
+                FontFamily="Helvetica"
+                Text="#FF0400ff"
+                BackgroundColor="#FF0400FF"
+                Grid.Column="1"
+                Grid.Row="4"
+                x:Name="lblHex2"/>
+            <Label
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="10"
+                FontAttributes="Bold"
+                FontFamily="Helvetica"
+                Text="#FF28DB55"
+                BackgroundColor="#FF28DB55"
+                Grid.Column="2"
+                Grid.Row="4"
+                x:Name="lblHex3"/>
+
+
+            <Label
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="10"
+                FontAttributes="Bold"
+                FontFamily="Helvetica"
+                Grid.Column="0"
+                Text="#FF605FAB"
+                BackgroundColor="#FF605FAB"
+                Grid.Row="5"
+                x:Name="lblHex4"/>
+            <Label
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="10"
+                FontAttributes="Bold"
+                FontFamily="Helvetica"
+                Grid.Column="1"
+                Text="#FF790940"
+                BackgroundColor="#FF790940"
+                Grid.Row="5"
+                x:Name="lblHex5"/>
+            <Label
+                TextColor="White"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                Margin="10"
+                FontAttributes="Bold"
+                FontFamily="Helvetica"
+                Grid.Column="3"
+                Text="#FF790975"
+                BackgroundColor="#FF790975"
+                Grid.Row="5"
+                x:Name="lblHex6"/>
+
+
+        </Grid>
+
+    </Grid>
+
+</ContentPage>
+

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="TDMPW_2P_EJ06.app/Contents/MacOS/TDMPW_2P_EJ06">
+      <BCSymbolMapName>TDMPW_2P_EJ06.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>TDMPW_2P_EJ06.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/braulioalejandronavarretehorta/Desktop/Cuarto Semestre/TALLER WINDOWS/TDMPW_2P_EJ06/TDMPW_2P_EJ06/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>TDMPW_2P_EJ06.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/braulioalejandronavarretehorta/Desktop/Cuarto Semestre/TALLER WINDOWS/TDMPW_2P_EJ06/TDMPW_2P_EJ06</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
